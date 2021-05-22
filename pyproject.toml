@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ado-py"
+version = "0.1.0"
+description = "Do stuff with python. Quickly access functions defied in do.py from the command-line."
+authors = ["aahnik <daw@aahnik.dev>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/aahnik/ado-py"
+keywords = ["python","cli","task runner"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Intended Audience :: Education",
+  "Intended Audience :: Information Technology",
+  "Development Status :: 4 - Beta",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ado = 'ado_py.ado:main'
