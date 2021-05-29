@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+
+# MIT License
+# Copyright (c) 2021 Aahnik Daw
+
 """
 Do stuff with Python
 
